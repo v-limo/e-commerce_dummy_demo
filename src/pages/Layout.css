@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 75px;
+  padding: 0 2rem;
+  background: #282c34;
+  color: #fff;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #61dafb;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 2rem;
+}
+
+main {
+  margin: 2rem auto;
+  max-width: 800px;
+}
